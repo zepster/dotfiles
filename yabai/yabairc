@@ -34,9 +34,9 @@ yabai -m config window_placement             second_child
 yabai -m config window_topmost               on
 yabai -m config window_shadow                float
 yabai -m config window_opacity               on
-yabai -m config window_opacity_duration      0.4
+yabai -m config window_opacity_duration      0.1
 yabai -m config active_window_opacity        1.0
-yabai -m config normal_window_opacity        0.85
+yabai -m config normal_window_opacity        0.95
 yabai -m config window_border                on
 yabai -m config window_border_width          6
 yabai -m config active_window_border_color   0xff775759
@@ -78,6 +78,7 @@ yabai -m rule --add app="^VimR$" title="(Preferences)"            manage=off
 yabai -m rule --add app="^Цифровой колориметр$"                   manage=off
 yabai -m rule --add app="^Twitter$" title="(Медиа)"               manage=off
 yabai -m rule --add app="^Spark$"                                 manage=off
+yabai -m rule --add app="^Raycast$"                                 manage=off
 
 # eng
 
